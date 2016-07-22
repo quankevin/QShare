@@ -27,7 +27,7 @@
 			<string>com.weibo</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wb2267783501</string>
+				<string>wb2222222</string>
 			</array>
 		</dict>
 		<dict>
@@ -37,7 +37,7 @@
 			<string>weixin</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wxa41e061dee0cad3b</string>
+				<string>wxa2222222</string>
 			</array>
 		</dict>
 		<dict>
@@ -47,7 +47,7 @@
 			<string>tencent</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>tencent1104759031</string>
+				<string>tencent222222</string>
 			</array>
 		</dict>
 		<dict>
@@ -67,7 +67,7 @@
 			<string>tencentApiIdentifier</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>tencent1104759031.content</string>
+				<string>tencent222222.content</string>
 			</array>
 		</dict>
 		<dict>
@@ -77,7 +77,7 @@
 			<string>mqqapi</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>QQ41D948F7</string>
+				<string>QQ222222</string>
 			</array>
 		</dict>
 		<dict>

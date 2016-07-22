@@ -1,10 +1,31 @@
 #QShare
- 这个项目是根据 https://github.com/lingochamp/Diplomat 这个开源项目改造的，感谢写这个整合的大神。
+这个项目是根据 https://github.com/lingochamp/Diplomat 这个开源项目改造的，感谢写这个整合的大神。
 
 #集成
 QShare.h 
 QShare.m
-  这两个是算是管理各个第三方的容器。
+这两个是算是管理各个第三方的容器。
+
+###设置key
+在KeyConstants.h 中定义各个平台的key 
+#define sinaWBKey           @"xxx"
+#define sinaAppKey          @"xxx"
+#define sinaRedirectURI     @"xxx"
+
+#define qqAppKey            @"222222"
+
+#define wxAppKey            @"xxx"
+#define wxAppSecret         @"xxx"
+
+#define rongKeyDev          @"xxx"
+#define rongKeyRelease      @"xxx"
+
+#define buglyAppId          @"xxxx"
+
+#define WnAppId             @"xxx"
+
+
+#define alischeme           @"xxx"
 
 
 ##初始化:
@@ -42,8 +63,8 @@ WXProxy.h
 FOUNDATION_EXTERN NSString * const kQShareTypeWechat;
 FOUNDATION_EXTERN NSString * const kWechatSceneTypeKey;//声明这个第三方需要的一些参数
 
-    @interface WXProxy : NSObject <QRegisterProxyProtocol, QAuthProxyProtocol, QShareProxyProtocol,QPayProxyProtocol>//几个代理都加上，再重写各个方法，
-    @end
+@interface WXProxy : NSObject <QRegisterProxyProtocol, QAuthProxyProtocol, QShareProxyProtocol,QPayProxyProtocol>//几个代理都加上，再重写各个方法，
+@end
 ```
 
 WXProxy.m
