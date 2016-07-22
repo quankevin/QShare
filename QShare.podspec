@@ -11,11 +11,13 @@ Pod::Spec.new do |s|
   s.frameworks   = "SystemConfiguration","UIKit","CoreTelephony"
   s.libraries    = "stdc++", "sqlite3","z"
   s.requires_arc = true
-  s.public_header_files = "QShare"
+  s.public_header_files = "QShare/ShareHeader.h"
 
   s.subspec 'Core' do |core|
-    core.source_files = "QShare/*.{h,m}"
+    core.source_files = "QShare/*.{h,m}","QShare/QUtil/*.{h,m}"
   end
+
+
 
   s.subspec 'WeChat' do |wechat|
     wechat.dependency 'QShare/Core'

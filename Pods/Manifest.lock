@@ -1,0 +1,19 @@
+PODS:
+  - WeiboSDK (3.1.4)
+
+DEPENDENCIES:
+  - WeiboSDK (from `https://github.com/sinaweibosdk/weibo_ios_sdk.git`)
+
+EXTERNAL SOURCES:
+  WeiboSDK:
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+CHECKOUT OPTIONS:
+  WeiboSDK:
+    :commit: 6031a8da4ce17867ff5887b8dfc59ea45930274e
+    :git: https://github.com/sinaweibosdk/weibo_ios_sdk.git
+
+SPEC CHECKSUMS:
+  WeiboSDK: bceab625ec59b7039ba721cc4ba9f5868804f63e
+
+COCOAPODS: 0.39.0
