@@ -38,6 +38,7 @@
 		4B847C021D409F2800DC02F7 /* AliProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B847C011D409F2800DC02F7 /* AliProxy.m */; };
 		4B847C071D40CC9000DC02F7 /* rwe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B847C061D40CC9000DC02F7 /* rwe.jpg */; };
 		4B847C091D40D88800DC02F7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4B847C081D40D88800DC02F7 /* README.md */; };
+		4BB629FC1D420F8F006FED12 /* QShare.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4BB629FB1D420F8F006FED12 /* QShare.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		4B847C031D40B06500DC02F7 /* KeyConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyConstants.h; sourceTree = "<group>"; };
 		4B847C061D40CC9000DC02F7 /* rwe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rwe.jpg; sourceTree = "<group>"; };
 		4B847C081D40D88800DC02F7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4BB629FB1D420F8F006FED12 /* QShare.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QShare.podspec; sourceTree = "<group>"; };
 		64BF665182FD56A0B8ADC683 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B69EF287E2502B030ADAA0F8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +158,7 @@
 				4B6620F11D3CC56200FE92D3 /* QShare */,
 				4B6620BD1D3CBE0700FE92D3 /* ShareProxy */,
 				4B847C081D40D88800DC02F7 /* README.md */,
+				4BB629FB1D420F8F006FED12 /* QShare.podspec */,
 				4B6620D71D3CBE0700FE92D3 /* ShareProxyTests */,
 				4B6620E21D3CBE0700FE92D3 /* ShareProxyUITests */,
 				4B6620BC1D3CBE0700FE92D3 /* Products */,
@@ -452,6 +455,7 @@
 			files = (
 				4B6620CE1D3CBE0700FE92D3 /* LaunchScreen.storyboard in Resources */,
 				4B6620CB1D3CBE0700FE92D3 /* Assets.xcassets in Resources */,
+				4BB629FC1D420F8F006FED12 /* QShare.podspec in Resources */,
 				4B6621091D3E281C00FE92D3 /* AlipaySDK.bundle in Resources */,
 				4B847C071D40CC9000DC02F7 /* rwe.jpg in Resources */,
 				4B6620C91D3CBE0700FE92D3 /* Main.storyboard in Resources */,
