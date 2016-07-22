@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "Gather Some Auth Share Pay."
   s.homepage     = "https://github.com/quankevin/QShare"
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   s.author             = { "quankevin" => "quankevin@163.com" }
   s.social_media_url   = "http://weibo.com/quankevin"
   s.platform     = :ios, "7.0"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Weibo' do |weibo|
-    weibo.dependency "WeiboSDK", :git => "https://github.com/sinaweibosdk/weibo_ios_sdk.git"
+    weibo.dependency "WeiboSDK"
   end  
 
   s.subspec 'Tencent' do |qq|
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
     ali.dependency 'QShare/Core'
     ali.source_files = "QShare/Ali/*.{h,m}"
     ali.resources = "QShare/Ali/*.bundle"
-    ali.vendored_frameworks = "QShare/Ali/SDK/AlipaySDK.framework
+    ali.vendored_frameworks = "QShare/Ali/SDK/AlipaySDK.framework"
   end
 
 
