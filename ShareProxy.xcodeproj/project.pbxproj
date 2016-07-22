@@ -694,7 +694,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/QShare/Wechat/SDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.xqzg;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.ShareProxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -717,7 +717,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/QShare/Wechat/SDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.xqzg;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weinong.ShareProxy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
