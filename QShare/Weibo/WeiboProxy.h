@@ -19,23 +19,23 @@ NS_ASSUME_NONNULL_BEGIN
 @interface QMessage (Weibo)
 - (WBMessageObject * __nonnull)weiboMessage;
 @end
-@interface QTextMessage (QQ)
+@interface QTextMessage (Weibo)
 
 @end
 
-@interface QMediaMessage (QQ)
+@interface QMediaMessage (Weibo)
 
 @end
-@interface QImageMessage (QQ)
+@interface QImageMessage (Weibo)
 
 @end
-@interface QAudioMessage (QQ)
+@interface QAudioMessage (Weibo)
 
 @end
-@interface QVideoMessage (QQ)
+@interface QVideoMessage (Weibo)
 
 @end
-@interface QPageMessage (QQ)
+@interface QPageMessage (Weibo)
 
 @end
 NS_ASSUME_NONNULL_END

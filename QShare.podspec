@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author             = { "quankevin" => "quankevin@163.com" }
   s.social_media_url   = "http://weibo.com/quankevin"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/quankevin/QShare.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/quankevin/QShare.git", :tag => "v#{s.version}" }
   s.frameworks   = "SystemConfiguration","UIKit","CoreTelephony"
   s.libraries    = "stdc++", "sqlite3","z"
   s.requires_arc = true
