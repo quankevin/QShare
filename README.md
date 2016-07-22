@@ -8,6 +8,7 @@ QShare.m
 
 ###设置key
 在KeyConstants.h 中定义各个平台的key 
+```
 #define sinaWBKey           @"xxx"
 #define sinaAppKey          @"xxx"
 #define sinaRedirectURI     @"xxx"
@@ -26,7 +27,7 @@ QShare.m
 
 
 #define alischeme           @"xxx"
-
+```
 
 ##初始化:
 ```objc
