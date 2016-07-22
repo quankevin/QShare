@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'WeChat' do |wechat|
     wechat.dependency 'QShare/Core'
-    wechat.source_files = "QShare/Wechat/*.{h,m}"
-    wechat.vendored_libraries = "QShare/Wechat/*.a"
+    wechat.source_files = "QShare/Wechat/SDK/*.{h,m}"
+    wechat.vendored_libraries = "QShare/Wechat/SDK/*.a"
   end
 
   s.subspec 'Weibo' do |weibo|
@@ -31,14 +31,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'Tencent' do |qq|
     qq.dependency 'QShare/Core'
-    qq.source_files = "QShare/Tencent/*.{h,m}"
+    qq.source_files = "QShare/Tencent/SDK/*.{h,m}","QShare/Tencent/SDK/*.h"
     qq.vendored_frameworks = "QShare/Tencent/SDK/TencentOpenAPI.framework"
   end
 
   s.subspec 'Ali' do |ali|
     ali.dependency 'QShare/Core'
     ali.source_files = "QShare/Ali/*.{h,m}"
-    ali.resources = "QShare/Ali/*.bundle"
+    ali.resources = "QShare/Ali/SDK/*.bundle"
     ali.vendored_frameworks = "QShare/Ali/SDK/AlipaySDK.framework"
   end
 
