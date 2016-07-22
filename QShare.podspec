@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Tencent' do |qq|
     qq.dependency 'QShare/Core'
-    qq.source_files = "QShare/Tencent/SDK/*.{h,m}","QShare/Tencent/SDK/*.h"
+    qq.source_files = "QShare/Tencent/*.{h,m}"
     qq.vendored_frameworks = "QShare/Tencent/SDK/TencentOpenAPI.framework"
   end
 
