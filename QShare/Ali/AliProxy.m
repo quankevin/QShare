@@ -64,6 +64,7 @@ NSString * __nonnull const kQShareTypeAli = @"kQShare_Ali";
     if (!self.aliPayScheme) {
         NSError * error = [NSError errorWithDomain:kAliErrorDomain code:-1 userInfo:@{NSLocalizedDescriptionKey:@"需要配置支付宝支付的回调"}];
         payBlock(nil,error);
+        return;
     }
     
     NSString * url = orderEntity;//需要确定这个是

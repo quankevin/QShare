@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
     core.source_files = "QShare/*.{h,m}","QShare/QUtil/*.{h,m}"
   end
 
-
-
   s.subspec 'WeChat' do |wechat|
     wechat.dependency 'QShare/Core'
-    wechat.source_files = "QShare/Wechat/SDK/*.{h,m}"
+    wechat.source_files = "QShare/Wechat/SDK/*.{h,m}","QShare/Wechat/*.{h,m}"
     wechat.vendored_libraries = "QShare/Wechat/SDK/*.a"
   end
 
