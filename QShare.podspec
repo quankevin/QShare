@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Weibo' do |weibo|
-    weibo.dependency "WeiboSDK"
+    weibo.dependency "WeiboSDK",'QShare/Core'
     weibo.source_files = "QShare/Weibo/*.{h,m}"
   end  
 
