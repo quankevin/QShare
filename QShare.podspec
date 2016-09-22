@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "QShare"
-  s.version      = "1.0.0"
+  s.version      = "v1.0.2"
   s.summary      = "Gather Some Auth Share Pay."
   s.homepage     = "https://github.com/quankevin/QShare"
   s.license      = "MIT"
